@@ -4,7 +4,7 @@
     "es6": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "prettier"],
+  "extends": ["stylelint", "eslint:recommended", "prettier"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -14,6 +14,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "padding-line-between-statements": "off"
   }
 }

@@ -102,7 +102,7 @@ section {
 }
 body {
   line-height: 1;
-  font-family: "proxima-nova", arial, sans-serif;
+  font-family: Helmet, arial, sans-serif;
   color: #161719;
 }
 ul {
@@ -259,3 +259,4 @@ textarea {
   /* Turn off scroll bars in IE unless needed */
   overflow: auto;
 }
+

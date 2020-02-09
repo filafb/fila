@@ -1,0 +1,17 @@
+.fisrt-header {
+  text-shadow: -10px 5px 9px #00000038;
+  color: #fff;
+  font-size: 65px;
+  font-family: Helmet;
+  font-weight: bold;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+}
+
+.first-impression {
+  margin: 25vh 4vw;
+}

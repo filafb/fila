@@ -8,7 +8,8 @@
     "lint": "eslint --ignore-path .gitignore .",
     "prettier": "prettier \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)\"",
     "format": "npm run prettier -- --write",
-    "start-dev": "nodemon server"
+    "start-dev": "nodemon server",
+    "start": "node server"
   },
   "author": "Filadelfo Braz",
   "license": "ISC",

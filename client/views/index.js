@@ -15,12 +15,7 @@ const home = () => html`
     <body>
       <section class="hero">
         <div class="first-impression">
-          <span class="fisrt-header">f</span><span class="fisrt-header">i</span
-          ><span class="fisrt-header">l</span><span class="fisrt-header">a</span
-          ><span class="fisrt-header">f</span><span class="fisrt-header">b</span
-          ><span class="fisrt-header">:</span><span class="fisrt-header">d</span
-          ><span class="fisrt-header">e</span
-          ><span class="fisrt-header">v</span>
+          <p>Oi mundo!</p>
         </div>
       </section>
     </body>

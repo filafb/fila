@@ -19,3 +19,8 @@ workflows:
     heroku_deploy:
       jobs:
         - heroku/deploy-via-git
+          requires:
+            - build-and-test
+              filters:
+                branches:
+                  only: master
